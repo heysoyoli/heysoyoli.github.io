@@ -1,0 +1,213 @@
+/*DHARMA FAMILY*/
+@font-face{
+    font-family:"Dharma-Reg-I";
+    src: url(dharma/DharmaGothicE_Regular_I.otf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+
+@font-face{
+    font-family:"Dharma-Reg";
+    src: url(dharma/DharmaGothicE_Regular_R.otf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: "Dharma-Bold";
+    src: url(dharma/DharmaGothicE_Bold_R.otf) format("opentype");
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face{
+    font-family: "Dharma-Light-I";
+    src: url(dharma/DharmaGothicE_Light_I.otf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face{
+    font-family: "Dharma-ExLight-I";
+    src: url(dharma/DharmaGothicE_ExLight_I.otf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face{
+    font-family: "Dharma-Hvy-I";
+    src: url(dharma/DharmaGothicE_Heavy_I.otf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+/*AKTIV FAMILY*/
+@font-face{
+    font-family: "Aktiv-Bld";
+    src: url(aktiv/AktivGrotesk_Trial_Bd.ttf) format("truetype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face{
+    font-family: "Aktiv-Reg";
+    src: url(aktiv/AktivGrotesk_Trial_Rg.ttf) format("truetype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body, html {
+    margin: 0;
+    overflow-x: hidden;
+    
+    /* The image used */
+
+    background-image: url(contact-bg.png);
+    z-index: -1; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.close a{
+    font-family: Aktiv-Reg; 
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0px;
+    text-decoration: none; 
+    opacity: 0.7; 
+    position: relative;
+    left: 120px; 
+    top: 125px; 
+}
+
+a:visited{
+    font-family: Aktiv-Reg; 
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0px;
+    text-decoration: none; 
+    opacity: 0.7; 
+}
+
+.contact{
+    width: 100%; 
+}
+
+
+.content{
+    position: relative;
+    width: 480px;
+    height: 280px;
+    margin-left: 120px;
+    margin-top: 265px;
+    display: inline-block;
+}
+
+
+.content h1{
+    font-family: Aktiv-Bld; 
+    color: #D8D8D8;
+    font-size: 70px;
+  line-height: 1.14;
+  letter-spacing: 0px;
+    margin-bottom: 0px;
+}
+
+.content p{
+    font-family: Aktiv-Reg; 
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0px;
+    
+}
+
+.logotype{
+    float:left;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+}
+
+.form{
+    width: 480px;
+    height: 300px;
+    margin-left: 120px;
+    display: inline-block;
+    margin-bottom: 200px; 
+}
+
+.form input{
+    width: 480px;
+    height: 80px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: solid 1px #ffffff;
+    opacity: 0.5; 
+
+}
+
+input::placeholder{
+    font-size: 25px;
+    font-family: Aktiv-Bld; 
+    color: #D8D8D8;
+    opacity: 0.5;
+}
+
+
+input[type=button]{
+    font-family: Dharma-Bold; 
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 3.1px;
+    text-align: center;
+    color: #ffffff;
+    margin-top:40px;
+    background-image: url(back-why.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: transparent;
+    opacity: .5;
+    
+}
+
+
+input[type=text] {
+    opacity: 1;
+     font-size: 25px;
+    font-family: Aktiv-Bld; 
+    color: #D8D8D8;
+}
+
+
+input[type=text]:focus {
+    border-bottom: 2px;
+    opacity: 1;
+     font-size: 25px;
+    font-family: Aktiv-Bld; 
+    color: #D8D8D8;
+    opacity: 1;
+}
+
+input[type=button]:hover{
+    opacity: 1; 
+    
+}
+
+
+
