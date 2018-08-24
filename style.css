@@ -399,6 +399,15 @@ font-family: Dharma-Bold;
     
 }
 
+#why p{
+    font-family: Dharma-Bold; 
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 3.1px;
+    text-align: center;
+    color: #ffffff;
+}
+
 #why-button{
     
     max-width: 200px; 
@@ -448,6 +457,105 @@ font-family: Dharma-Bold;
 
 
 /*--------------------------- RESPONSIVE -----------------------------------*/
+
+@media only screen and (max-width: 640px) {
+    
+     #header{
+        top: 0px;
+        left: -10px;
+    }
+    
+    #letsrevolt-blue{
+    left: 8px;
+    top: 10px;
+
+    }
+
+   #letsrevolt .revolt { 
+      font-size: 200px; 
+   }
+    
+    #letsrevolt .lets { 
+      font-size: 200px; 
+   }
+    
+    #letsrevolt-blue .revolt-blue { 
+      font-size: 200px; 
+   }
+    
+    #letsrevolt-blue .lets-blue { 
+      font-size: 200px; 
+   }
+    
+    #header-container{
+            height: 315px;
+    }
+    
+
+    
+    #we-are{
+        font-size: 48px;
+        
+    }
+    
+    .team{
+        width: 330px;
+        font-size: 14px;
+    }
+    
+    #looking-content{
+        font-size: 14px;
+    }
+    
+    .looking{
+        width: 330px;
+    }
+    
+    #p-bold{
+        font-size: 22px;
+    }
+    
+   
+    #future-together{
+        font-size: 80px;
+        text-align: left;
+    }
+    
+    #future-together-blue{
+        font-size: 80px;
+        text-align: left;
+    }
+    
+    #reg-future{
+        font-size: 120px;
+    }
+    
+     #reg-future-blue{
+        font-size: 120px;
+    }
+    
+    .in-it{
+        width: 360px;
+    }
+    
+    .perks{
+        font-size: 35px;
+    }
+    
+    #perks-important{
+        font-size: 35px;
+    }
+    
+    #no-position {
+        font-size: 18px; 
+    }
+    
+    #why p{
+        font-size: 20px; 
+    }
+    
+}
+
 
 
 @media only screen and (max-width: 425px) {
@@ -536,6 +644,14 @@ font-family: Dharma-Bold;
     
     #perks-important{
         font-size: 35px;
+    }
+    
+    #no-position {
+        font-size: 18px; 
+    }
+    
+    #why p{
+        font-size: 20px; 
     }
     
 }
