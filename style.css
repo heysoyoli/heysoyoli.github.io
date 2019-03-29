@@ -190,20 +190,22 @@ body, html {
 
 
 
-    #header-container{
-            height: 315px;
-    }
+  #logo{
+      max-width: 10px;
+      margin: 100px auto 0px;
+  }
 
+  .intro-text {
+    max-width: 80%;
+  }
 
+  #we-are{
+      font-size: 10pt;
+  }
 
-    #we-are{
-        font-size: 10pt;
-
-    }
-
-    #why p{
-        font-size: 8pt;
-    }
+  #why p{
+      font-size: 8pt;
+  }
 
 }
 
