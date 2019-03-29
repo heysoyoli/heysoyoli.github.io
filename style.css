@@ -188,32 +188,7 @@ body, html {
 
 @media only screen and (max-width: 425px) {
 
-     #header{
-        top: 0px;
-        left: -10px;
-    }
 
-    #letsrevolt-blue{
-     left: 10px;
-    top: 10px;
-
-    }
-
-   #letsrevolt .revolt {
-      font-size: 200px;
-   }
-
-    #letsrevolt .lets {
-      font-size: 200px;
-   }
-
-    #letsrevolt-blue .revolt-blue {
-      font-size: 200px;
-   }
-
-    #letsrevolt-blue .lets-blue {
-      font-size: 200px;
-   }
 
     #header-container{
             height: 315px;
@@ -222,64 +197,12 @@ body, html {
 
 
     #we-are{
-        font-size: 48px;
+        font-size: 10pt;
 
-    }
-
-    .team{
-        width: 330px;
-        font-size: 14px;
-    }
-
-    #looking-content{
-        font-size: 14px;
-    }
-
-    .looking{
-        width: 330px;
-    }
-
-    #p-bold{
-        font-size: 22px;
-    }
-
-
-    #future-together{
-        font-size: 80px;
-        text-align: left;
-    }
-
-    #future-together-blue{
-        font-size: 80px;
-        text-align: left;
-    }
-
-    #reg-future{
-        font-size: 120px;
-    }
-
-     #reg-future-blue{
-        font-size: 120px;
-    }
-
-    .in-it{
-        width: 360px;
-    }
-
-    .perks{
-        font-size: 35px;
-    }
-
-    #perks-important{
-        font-size: 35px;
-    }
-
-    #no-position {
-        font-size: 18px;
     }
 
     #why p{
-        font-size: 20px;
+        font-size: 8pt;
     }
 
 }
@@ -287,58 +210,23 @@ body, html {
 
 
 @media only screen and (max-width: 375px) {
-
-    #we-are{
-        font-size: 40px;
+    #logo{
+        max-width: 10px;
+        margin: 100px auto 0px;
     }
 
-     #letsrevolt .revolt {
-      font-size: 150px;
-   }
-
-    #letsrevolt .lets {
-      font-size: 150px;
-   }
-
-    #letsrevolt-blue .revolt-blue {
-      font-size: 150px;
-   }
-
-    #letsrevolt-blue .lets-blue {
-      font-size: 150px;
-    }
-
-    .intro-text{
-        margin-top: 80px;
+    .intro-text {
+      max-width: 80%;
     }
 
     #we-are{
-        font-size: 36px;
+        font-size: 10pt;
     }
 
-
-    #future-together{
-        font-size: 60px;
-        text-align: left;
+    #why p{
+        font-size: 8pt;
     }
 
-    #future-together-blue{
-        font-size: 60px;
-        text-align: left;
-    }
-
-    #reg-future{
-        font-size: 100px;
-    }
-
-     #reg-future-blue{
-        font-size: 100px;
-    }
-
-
-    .in-it{
-        width: 300px;
-    }
 
 }
 
